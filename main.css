@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background: linear-gradient(to top, #fff6f6a8 , #9043e433);
+    width: 100%;
+    height: 100vh;
+}
+
+.random {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    left: 25%;
+}
+
+.random__btn {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.random__btn--pink {
+    border: 1px solid #e839ea8c;
+    background: #e839ea8c;
+}
+
+.random__result__pair {
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 3px solid #cbc9c933;
+}
+
+.random__btn--blue {
+    border: 1px solid #39e1ea8c;
+    background: #39e1ea8c;
+}
+
+.pair__name {
+    min-width: 180px;
+    text-align: left;
+}
+
+.random__btns {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 21px;
+}
