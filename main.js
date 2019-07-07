@@ -2,6 +2,7 @@ const randPair = document.querySelector('#pair');
 const randSingle = document.querySelector('#single');
 const result = document.querySelector('#result');
 
+// github name
 const names = ['alaa-yasin', 'AlaaTaima', 'Amoodaa', 'asem1789', 'Asmaathabet', 'fadeomar', 'FadiAlamassi', 'fares98', 'hashemt', 'MaiUbeid', 'MohammadAlhalaq', 'Mohammed-Q96', 'mossa-Sammer', 'ranasobeid95', 'SajedaIsmail', 'yosefalnajjarofficial'];
 
 const checkPair = (pairs, firstPair, secondPair) => pairs.some(pair => pair[0] === names[firstPair] || pair[0] === names[secondPair] || pair[1] === names[firstPair] || pair[1] === names[secondPair])
